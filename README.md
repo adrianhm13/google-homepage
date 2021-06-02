@@ -1,0 +1,1 @@
+I'm about to create a copy of Google's home site. I hope to understand fully and learn new things about HTML and CSS, after this. Time to jump to js!
