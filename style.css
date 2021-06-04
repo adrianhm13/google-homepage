@@ -1,10 +1,18 @@
+html {
+    height:100%;
+    margin:0;
+    padding:0;
+   }
 body{
     font-size: 12px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 .main-container{
     display:flex;
     flex-direction:column;
-    flex-wrap: wrap;
+    height: 100%;
 }
 .logo-container{
     display:flex;
@@ -102,4 +110,59 @@ li{
     font-size: 25px;
     color:rgb(59, 59, 59);
     text-decoration: none;
+}
+.middle-container{
+    display:flex;
+    flex-flow:column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: auto;
+}
+.footer1-subelement{
+    background: #f2f2f2;
+    color: rgba(0,0,0,.54);
+    border-color: rgb(223, 223, 223);
+    border-width: 1px;
+    border-bottom-style: solid;
+}
+.footer1-subelement p{
+    color: rgb(138, 138, 138);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    margin-left: 15px;
+}
+.footer2-subelement{
+    background: #f2f2f2;
+    color: rgba(0,0,0,.54);
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+.footer2-textleft{
+    margin-left: 20px;
+}
+.footer2-textleft li{
+    cursor: pointer;
+    padding-left: 20px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer2-textleft li:hover{
+    text-decoration: underline;
+}
+.footer2-textright li{
+    cursor: pointer;
+    padding-right: 20px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer2-textright li:hover{
+    text-decoration: underline;
 }
