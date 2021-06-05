@@ -158,6 +158,31 @@ li{
     align-items: center;
     margin-top: 10%;
 }
+.buttons-container{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-content:center;
+    margin: 20px 0 0 0;
+    height: auto;
+}
+.button-left, .button-right{
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    border: 1px solid #f8f9fa;
+    color: rgb(104, 104, 104);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 10px;
+    cursor: pointer;
+}
+.button-left:hover, .button-right:hover{
+    border-radius: 6px;
+    border: 1px solid rgb(212, 212, 212);
+}
 .footer-container{
     display: flex;
     flex-direction: column;
